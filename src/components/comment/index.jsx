@@ -30,7 +30,7 @@ export const Comment = () => {
           <div>
             <img src="/images/profileLogo.png" alt="" />
           </div>
-          <div>
+          <div className="">
             <div className="com_content-between comment-title">
               <div className="comment-hello">
                 <span className="com_title">안녕 나 응애 </span>
@@ -59,7 +59,7 @@ export const Comment = () => {
                 <div>
                   <img src="/images/receiverProfile.png" alt="" />
                 </div>
-                <div>
+                <div className="reply_section">
                   <div className="com_content-between comment-title">
                     <div className="comment-hello">
                       <span className="com_title">ㅇㅅㅇ </span>
