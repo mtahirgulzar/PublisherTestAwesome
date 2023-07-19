@@ -76,6 +76,8 @@
   width: 100%;
   height: 450px;
   cursor: grab;
+  object-fit: contain;
+  background: lightgray;
 }
 .p_post-detail .image-carousal .slick-dots {
   position: absolute;
