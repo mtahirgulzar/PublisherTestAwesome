@@ -16,22 +16,22 @@ export const Profile = () => {
   return (
     <div className="profile">
       <div className="profile-top">
-        <div>
+        <button className="profile_back-arrow com_btn_hover ">
           <BackArrow />
-        </div>
+        </button>
         <div>
-          <h1 className="profile-top_title">자유톡</h1>
+          <h1 className="profile-top_title Noto-ff">자유톡</h1>
         </div>
-        <div>
+        <button className="com_btn_hover ">
           <Notification />
-        </div>
+        </button>
       </div>
       <div className="com_content-between">
         <div>
           <ProfileLogo />
         </div>
         <div>
-          <button className="follow-btn com_btn_hover ">팔로우</button>
+          <button className="follow-btn  ">팔로우</button>
         </div>
       </div>
       <div>

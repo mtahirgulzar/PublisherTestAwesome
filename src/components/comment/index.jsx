@@ -11,16 +11,16 @@ export const Comment = () => {
   return (
     <div className="comment">
       <div className="comment_top com_content-center">
-        <button className="comment_common-btn">
+        <button className="comment_common-btn com_btn_hover">
           <Heart />5
         </button>
-        <button className="comment_common-btn">
+        <button className="comment_common-btn com_btn_hover">
           <Message />5
         </button>
-        <button className="comment_common-btn">
+        <button className="comment_common-btn com_btn_hover">
           <Bookmark />
         </button>
-        <button className="comment_common-btn">
+        <button className="comment_common-btn com_btn_hover">
           <ThreeDots />
         </button>
       </div>
@@ -37,9 +37,9 @@ export const Comment = () => {
                 <MarkedTick />
                 <span className="com-day-ago">1일전</span>
               </div>
-              <div>
+              <button className="com_btn_hover">
                 <ThreeDots />
-              </div>
+              </button>
             </div>
             <p className="comment_actual-comment">
               어머 제가 있던 테이블이 제일 반응이 좋았나보네요🤭 우짤래미님도
@@ -48,10 +48,10 @@ export const Comment = () => {
               리뷰 올라온다고 하니 꼭 봐주세용~!
             </p>
             <div className="actual-comment_react">
-              <button className="comment_common-btn">
+              <button className="comment_common-btn  com_btn_hover">
                 <Heart />5
               </button>
-              <button className="comment_common-btn">
+              <button className="comment_common-btn com_btn_hover">
                 <Message />5
               </button>
             </div>
@@ -65,15 +65,15 @@ export const Comment = () => {
                       <span className="com_title">ㅇㅅㅇ </span>
                       <span className="com-day-ago">1일전</span>
                     </div>
-                    <div>
+                    <button className="com_btn_hover">
                       <ThreeDots />
-                    </div>
+                    </button>
                   </div>
                   <p className="comment_actual-comment">
                   오 대박! 라이브 리뷰 오늘 올라온대요? 챙겨봐야겠다
                   </p>
                   <div className="actual-comment_react">
-                    <button className="comment_common-btn">
+                    <button className="comment_common-btn com_btn_hover">
                       <Heart />5
                     </button> 
                   </div>

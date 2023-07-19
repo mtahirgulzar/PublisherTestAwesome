@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
+.Noto-ff {
+  font-family: "Noto Sans";
+}
+.Roboto-ff {
+  font-family: "Roboto";
+}
 .p_post-detail {
   max-width: 375px;
   margin: 0 auto;
@@ -21,36 +27,38 @@
   letter-spacing: -1%;
   color: #1d232b;
 }
+.p_post-detail .profile-top .profile_back-arrow{
+  padding: 0px;
+}
 
-.profile-logo .profile-logo_text {
+.p_post-detail .profile-logo .profile-logo_text {
   display: flex;
   flex-direction: column;
 }
-.profile-logo-timeLine{
+.p_post-detail .profile-logo .profile-logo-timeLine {
   display: flex;
   align-items: center;
   column-gap: 4px;
-  color: #919EB6;
-  font-family: 'Roboto';
+  color: #919eb6;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
 }
-.profile-hello{
+.p_post-detail .profile-logo .profile-hello {
   display: flex;
   column-gap: 4px;
   align-items: center;
 }
-.profile-logo-description{
+.p_post-detail .profile-logo .profile-logo-description {
   column-gap: 8px;
   display: flex;
   align-items: start;
 }
-.profile-logo-title{
+.p_post-detail .profile-logo .profile-logo-title {
   width: 100%;
-  margin-top: 8px;
 }
 
-.follow-btn {
+.p_post-detail .follow-btn {
   background: #01b99f;
   padding: 6px 12px;
   color: #ffffff;
@@ -59,10 +67,12 @@
   font-weight: 500;
   border: none;
   border-radius: 999px;
+  cursor: pointer;
 }
 .p_post-detail .image-carousal .image-carousal_img {
   width: 100%;
   height: 450px;
+  cursor: grab;
 }
 .image-carousal .slick-dots {
   position: absolute;
@@ -71,30 +81,30 @@
 .p_post-detail .image-carousal .slick-dots li {
   margin: 0px;
 }
-.com_content-between {
+.p_post-detail .com_content-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-content: center;
 }
-.com_content-center {
+.p_post-detail .com_content-center {
   display: flex;
   align-items: center;
 }
-.com_normal-text {
+.p_post-detail .com_normal-text {
   font-family: "Noto Sans";
   font-size: 12px;
   font-weight: 500;
   color: #313b49;
 }
-.com_title {
+.p_post-detail .com_title {
   font-family: "Noto Sans";
   font-size: 14px;
   font-weight: 700;
   letter-spacing: -1%;
   color: #1d232b;
 }
-.common-button {
+.p_post-detail .common-button {
   border: 1px solid #ced3de;
   padding: 5px 12px;
   border-radius: 999px;
@@ -105,22 +115,24 @@
   color: #5a6b87;
   font-family: "Roboto";
 }
-.button-parents {
+.p_post-detail .button-parents {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-.com_btn_hover {
+.p_post-detail .com_btn_hover {
   cursor: pointer;
+  background-color: #ffffff;
+  border: none;
 }
-.comment {
+.p_post-detail .comment {
   padding: 0px 16px;
 }
-.comment_top {
+.p_post-detail .comment_top {
   gap: 8px;
   padding: 12px 0px;
 }
-.comment_common-btn {
+.p_post-detail .comment_common-btn {
   border: none;
   background: #ffffff;
   display: flex;
@@ -131,66 +143,65 @@
   font-size: 12px;
   color: #919eb6;
 }
-.comment_comment-post {
+.p_post-detail .comment_comment-post {
   padding: 12px 0px;
   border-top: 2px solid #f7f8fa;
   border-bottom: 2px solid #f7f8fa;
 }
-.comment-title{
+.p_post-detail .comment-title {
   width: 100%;
   margin-top: 8px;
 }
-.comment-hello{
+.p_post-detail .comment-hello {
   display: flex;
   column-gap: 4px;
   align-items: center;
 }
-.com-day-ago{
+.p_post-detail .com-day-ago {
   font-family: "Noto Sans", sans;
   font-size: 10px;
   font-weight: 500;
-  color: #919EB6; 
+  color: #919eb6;
 }
-.comment-post_description {
+.p_post-detail .comment-post_description {
   column-gap: 8px;
   display: flex;
   align-items: start;
 }
-.comment_actual-comment{
-  color: #313B49;
+.p_post-detail .comment_actual-comment {
+  color: #313b49;
   font-family: "Noto Sans";
   font-size: 12px;
   letter-spacing: -1%;
 }
-.actual-comment_react{
+.p_post-detail .actual-comment_react {
   display: flex;
 }
-.actual-comment_react .comment_common-btn{
+.p_post-detail .actual-comment_react .comment_common-btn {
   column-gap: 6px;
   padding: 0px;
   padding-right: 6px;
 }
-.comment_reply-section{
+.p_post-detail .comment_reply-section {
   column-gap: 8px;
   display: flex;
   align-items: start;
   margin-top: 16px;
 }
 
-.comment_register-comment {
+.p_post-detail .comment_register-comment {
   padding: 12px 0px;
 }
-.comment-description-text {
+.p_post-detail .comment-description-text {
   font-size: 12px;
   font-family: "Roboto";
   font-weight: 400;
 }
-.image-mode {
+.p_post-detail .image-mode {
   column-gap: 16px;
-
   color: #afb9ca;
 }
-.comment_register-btn {
+.p_post-detail .comment_register-btn {
   border: none;
   background: #ffffff;
   color: #919eb6;
