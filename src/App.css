@@ -77,13 +77,20 @@
   height: 450px;
   cursor: grab;
 }
-.image-carousal .slick-dots {
+.p_post-detail .image-carousal .slick-dots {
   position: absolute;
   bottom: 10px;
+}
+.p_post-detail .image-carousal .carousal-next-arrow{
+  display: none;
+}
+.p_post-detail .image-carousal .carousal-prev-arrow{
+  display: none;
 }
 .p_post-detail .image-carousal .slick-dots li {
   margin: 0px;
 }
+
 .p_post-detail .com_content-between {
   display: flex;
   justify-content: space-between;

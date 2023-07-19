@@ -2,7 +2,6 @@ import React from "react";
 import { Heart } from "../common/icons/back-arrow/heart";
 import { Message } from "../common/icons/message";
 import { Bookmark } from "../common/icons/bookmark";
-import { Button } from "../common/button";
 import { ThreeDots } from "../common/icons/three-dots";
 import { ImageMode } from "../common/icons/image-mode";
 import { MarkedTick } from "../common/icons/marked-tick";
